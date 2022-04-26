@@ -1,0 +1,288 @@
+[
+  {
+    "_id": "AWiq4Q9njj9GHA7V1P1I",
+    "_type": "dashboard",
+    "_source": {
+      "title": "IOT",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":3,\"size_y\":2,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"AWijkJ_jjj9GHA7V0dGq\",\"col\":1,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"AWip7Uvejj9GHA7V1Iz2\",\"col\":9,\"row\":4},{\"size_x\":5,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"AWip7H2Kjj9GHA7V1IyJ\",\"col\":4,\"row\":4},{\"size_x\":12,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"AWijjuPdjj9GHA7V0dEa\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"AWip6pKCjj9GHA7V1Iuv\",\"col\":1,\"row\":9},{\"size_x\":4,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"AWip6Xfgjj9GHA7V1Isw\",\"col\":8,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"AWip66OGjj9GHA7V1Iwu\",\"col\":1,\"row\":12},{\"size_x\":6,\"size_y\":2,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"AWijlGi_jj9GHA7V0dLw\",\"col\":1,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"AWip6Izyjj9GHA7V1IrD\",\"col\":7,\"row\":10}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-6\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}},\"P-2\":{\"vis\":{\"defaultColors\":{\"0 - 60\":\"rgb(247,252,245)\",\"60 - 120\":\"rgb(199,233,192)\",\"120 - 180\":\"rgb(116,196,118)\",\"180 - 240\":\"rgb(35,139,69)\"},\"legendOpen\":false}},\"P-5\":{\"vis\":{\"defaultColors\":{\"0 - 60\":\"rgb(247,252,245)\",\"60 - 120\":\"rgb(199,233,192)\",\"120 - 180\":\"rgb(116,196,118)\",\"180 - 240\":\"rgb(35,139,69)\"}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AWiqEyGMjj9GHA7V1J5o",
+    "_type": "dashboard",
+    "_source": {
+      "title": "IOT dashboard 1",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"AWijkJ_jjj9GHA7V0dGq\",\"panelIndex\":1,\"row\":3,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"AWip5i_rjj9GHA7V1Imh\",\"panelIndex\":2,\"row\":3,\"size_x\":4,\"size_y\":3,\"type\":\"visualization\"},{\"col\":8,\"id\":\"AWip5vJVjj9GHA7V1In8\",\"panelIndex\":3,\"row\":3,\"size_x\":5,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWijjuPdjj9GHA7V0dEa\",\"panelIndex\":4,\"row\":1,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"AWip5RFFjj9GHA7V1Iki\",\"panelIndex\":5,\"row\":6,\"size_x\":5,\"size_y\":3,\"type\":\"visualization\"},{\"col\":8,\"id\":\"AWip5BtEjj9GHA7V1Iij\",\"panelIndex\":7,\"row\":6,\"size_x\":5,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"AWijlGi_jj9GHA7V0dLw\",\"panelIndex\":9,\"row\":6,\"size_x\":2,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{\"P-2\":{\"vis\":{\"legendOpen\":false}},\"P-3\":{\"vis\":{\"defaultColors\":{\"0 - 20\":\"rgb(0,104,55)\",\"20 - 200\":\"rgb(135,203,103)\",\"200 - 1,000\":\"rgb(255,255,190)\"},\"legendOpen\":false}},\"P-5\":{\"vis\":{\"legendOpen\":false}},\"P-7\":{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(255,255,204)\",\"100 - 300\":\"rgb(254,217,118)\",\"300 - 500\":\"rgb(253,141,60)\",\"500 - 4,000\":\"rgb(227,27,28)\"},\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"match_all\":{}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "AWikX5yujj9GHA7V0hly",
+    "_type": "search",
+    "_source": {
+      "title": "Table",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "timeStamp",
+        "power",
+        "sensor"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWikTCoyjj9GHA7V0hHl\",\"highlightAll\":true,\"version\":true,\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWikXamrjj9GHA7V0hiu",
+    "_type": "search",
+    "_source": {
+      "title": "Tab",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWikTCoyjj9GHA7V0hHl\",\"highlightAll\":true,\"version\":true,\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWijjuPdjj9GHA7V0dEa",
+    "_type": "visualization",
+    "_source": {
+      "title": "Markdown",
+      "visState": "{\"title\":\"Markdown\",\"type\":\"markdown\",\"params\":{\"type\":\"markdown\",\"markdown\":\"## IOT Makerspace\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWijkJ_jjj9GHA7V0dGq",
+    "_type": "visualization",
+    "_source": {
+      "title": "Fire",
+      "visState": "{\"title\":\"Fire\",\"type\":\"markdown\",\"params\":{\"type\":\"markdown\",\"markdown\":\"### Fire Detection\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWijlGi_jj9GHA7V0dLw",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power md",
+      "visState": "{\"title\":\"Power md\",\"type\":\"markdown\",\"params\":{\"type\":\"markdown\",\"markdown\":\"### Power Consumption\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWijmXjejj9GHA7V0dSe",
+    "_type": "visualization",
+    "_source": {
+      "title": "Usage Metrics",
+      "visState": "{\"title\":\"Usage Metrics\",\"type\":\"markdown\",\"params\":{\"type\":\"markdown\",\"markdown\":\"## Usage\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip6Izyjj9GHA7V1IrD",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power(epoch)",
+      "visState": "{\"title\":\"Power(epoch)\",\"type\":\"area\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"timeStamp per 5 minutes\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Power consumption\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Power consumption\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"area\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"power\",\"customLabel\":\"Power consumption\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"s\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip7H2Kjj9GHA7V1IyJ",
+    "_type": "visualization",
+    "_source": {
+      "title": "IR(e)",
+      "visState": "{\"title\":\"IR(e)\",\"type\":\"line\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"timeStamp per 5 minutes\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Average sensor\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Average sensor\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"line\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"sensor\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"s\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip6pKCjj9GHA7V1Iuv",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power Heat Map(e)",
+      "visState": "{\"title\":\"Power Heat Map(e)\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"sensor\",\"customLabel\":\"-\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"s\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 60\":\"rgb(247,252,245)\",\"60 - 120\":\"rgb(199,233,192)\",\"120 - 180\":\"rgb(116,196,118)\",\"180 - 240\":\"rgb(35,139,69)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip7Uvejj9GHA7V1Iz2",
+    "_type": "visualization",
+    "_source": {
+      "title": "IR Heat Map(e)",
+      "visState": "{\"title\":\"IR Heat Map(e)\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"sensor\",\"customLabel\":\"-\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"ms\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 60\":\"rgb(247,252,245)\",\"60 - 120\":\"rgb(199,233,192)\",\"120 - 180\":\"rgb(116,196,118)\",\"180 - 240\":\"rgb(35,139,69)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip6Xfgjj9GHA7V1Isw",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power Metric(e)",
+      "visState": "{\"title\":\"Power Metric(e)\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"gauge\",\"gauge\":{\"verticalSplit\":false,\"autoExtend\":false,\"percentageMode\":false,\"gaugeType\":\"Metric\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Green to Red\",\"gaugeColorMode\":\"None\",\"useRange\":false,\"colorsRange\":[{\"from\":0,\"to\":100}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":false,\"labels\":false,\"color\":\"#333\",\"width\":2},\"type\":\"simple\",\"style\":{\"fontSize\":60,\"bgColor\":false,\"labelColor\":false,\"subText\":\"kWh\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"power\",\"customLabel\":\"Power consumption\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 100\":\"rgb(0,104,55)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip66OGjj9GHA7V1Iwu",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power consumption(e)",
+      "visState": "{\"title\":\"Power consumption(e)\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"type\":\"pie\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"power\",\"ranges\":[{\"from\":0,\"to\":100},{\"from\":100,\"to\":2000}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWilvyjTjj9GHA7V0qe-\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip27Asjj9GHA7V1ITC",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power Usage",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"power\",\"ranges\":[{\"from\":0,\"to\":1},{\"from\":1,\"to\":300}]},\"schema\":\"segment\",\"type\":\"range\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"legendPosition\":\"right\",\"type\":\"pie\"},\"title\":\"Power Usage\",\"type\":\"pie\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWip0DTZjj9GHA7V1H95\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip5i_rjj9GHA7V1Imh",
+    "_type": "visualization",
+    "_source": {
+      "title": "IR",
+      "visState": "{\"title\":\"IR\",\"type\":\"line\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"Timestamp\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"IR\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"IR\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"line\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"sensor\",\"customLabel\":\"IR\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"s\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWip0DTZjj9GHA7V1H95\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip5vJVjj9GHA7V1In8",
+    "_type": "visualization",
+    "_source": {
+      "title": "IR Heat Map",
+      "visState": "{\"title\":\"IR Heat Map\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":4,\"colorSchema\":\"Green to Red\",\"setColorRange\":true,\"colorsRange\":[{\"from\":0,\"to\":20},{\"from\":20,\"to\":100},{\"from\":100,\"to\":200},{\"from\":200,\"to\":1000}],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"sensor\",\"customLabel\":\"-\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"custom\",\"customInterval\":\"3s\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 20\":\"rgb(0,104,55)\",\"20 - 100\":\"rgb(135,203,103)\",\"100 - 200\":\"rgb(255,255,190)\",\"200 - 1,000\":\"rgb(249,142,82)\"},\"colors\":{\"338 - 450\":\"#E24D42\",\"0 - 113\":\"#E0F9D7\",\"200 - 1,000\":\"#E24D42\",\"0 - 20\":\"#E0F9D7\",\"20 - 200\":\"#7EB26D\",\"100 - 200\":\"#F9934E\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWip0DTZjj9GHA7V1H95\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip5RFFjj9GHA7V1Iki",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power",
+      "visState": "{\"title\":\"Power\",\"type\":\"area\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"Timestamp\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Power\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"area\",\"mode\":\"stacked\",\"data\":{\"label\":\"Power\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"linear\",\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"area\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"power\",\"customLabel\":\"Power\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"custom\",\"customInterval\":\"5s\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWip0DTZjj9GHA7V1H95\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "AWip5BtEjj9GHA7V1Iij",
+    "_type": "visualization",
+    "_source": {
+      "title": "Power Heat Map",
+      "visState": "{\"title\":\"Power Heat Map\",\"type\":\"heatmap\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"colorSchema\":\"Yellow to Red\",\"colorsNumber\":4,\"colorsRange\":[{\"from\":0,\"to\":100},{\"from\":100,\"to\":300},{\"from\":300,\"to\":500},{\"from\":500,\"to\":4000}],\"enableHover\":false,\"invertColors\":false,\"legendPosition\":\"right\",\"percentageMode\":false,\"setColorRange\":true,\"times\":[],\"type\":\"heatmap\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"color\":\"#555\",\"rotate\":0,\"show\":false},\"scale\":{\"defaultYExtents\":false,\"type\":\"linear\"},\"show\":false,\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"power\",\"customLabel\":\"-\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timeStamp\",\"interval\":\"custom\",\"customInterval\":\"4s\",\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Timestamp\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"0 - 100\":\"#FCEACA\",\"100 - 200\":\"#F2C96D\",\"200 - 300\":\"#E24D42\",\"100 - 300\":\"#F4D598\",\"300 - 500\":\"#F9934E\"},\"defaultColors\":{\"0 - 100\":\"rgb(255,255,204)\",\"100 - 300\":\"rgb(254,217,118)\",\"300 - 500\":\"rgb(253,141,60)\",\"500 - 4,000\":\"rgb(227,27,28)\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"AWip0DTZjj9GHA7V1H95\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  }
+]
