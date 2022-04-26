@@ -120,7 +120,7 @@ The ESP32 board is used as it is capable of working with a high reliability in i
 ADCs are needed because the ADC2 pins of ESP32 cannot be employed when using the built-in Wi-Fi. The MCP3008 (depicted below) is a reasonable choice. It is a 10-bit ADC for the combination of high performance and low power consumption in a small package which makes it ideal for embedded control applications. The MCP3008 features a Successive Approximation Register (SAR) architecture and an industry-standard SPI serial interface, allowing 10-bit ADC capability to be added to the board. The MCP3008 fits to this project as it features 200k samples/second and 8 input channels.
 
 <figure align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0176/3274/products/100460_800x.jpg?v=1479868203" alt="MCP3008" width="40%">
+  <img src="doc/MCP3008.png" alt="MCP3008" width="40%">
   <figcaption>Fig.7: MCP3008.</figcaption>
 </figure> 
 
@@ -130,7 +130,7 @@ ADCs are needed because the ADC2 pins of ESP32 cannot be employed when using the
 
 In the picture below, one can find a Fritzing breadboard diagram that shows how all the connections of the solution are made.
 <figure align="center">
-  <img src="https://gitlab.com/tum-iot-lab/makerspace-lasercutter/raw/rafid/doc/iot_makerspace_lasercutter_bb.png" alt="Breadboard Diagram">
+  <img src="doc/iot_makerspace_lasercutter_bb.png" alt="Breadboard Diagram">
   <figcaption>Fig.8: Laser cutter IoT Solution Fritzing Breadboard Diagram.</figcaption>
 </figure> 
 
@@ -177,7 +177,7 @@ Two MCPs with ESP32 are used to get data from twelve IR sensors as shown in Figu
 The circuit diagram of the current sensor is shown in Figure 9.
 
 <figure align="center">
-  <img src="https://gitlab.com/tum-iot-lab/makerspace-lasercutter/raw/rafid/doc/iot_makerspace_lasercutter_schem.png" alt="Schema Diagram">
+  <img src="doc/iot_makerspace_lasercutter_schem.png" alt="Schema Diagram">
   <figcaption>Fig.9: Laser cutter IoT Solution Fritzing Schema Diagram.</figcaption>
 </figure> 
 
